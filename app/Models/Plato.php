@@ -9,6 +9,8 @@ class Plato extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['nombre'];
+
     /**
      * Relación con los ingredientes que tiene el plato
      */

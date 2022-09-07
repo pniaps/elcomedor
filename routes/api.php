@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\V1\AlergenoController;
 use App\Http\Controllers\Api\V1\IngredienteController;
+use App\Http\Controllers\Api\V1\PlatoController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +23,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::apiResource('v1/alergenos', AlergenoController::class);
 Route::apiResource('v1/ingredientes', IngredienteController::class);
+Route::apiResource('v1/platos', PlatoController::class);

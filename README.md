@@ -1,3 +1,5 @@
+[![Laravel](https://github.com/pniaps/elcomedor/actions/workflows/laravel.yml/badge.svg)](https://github.com/pniaps/elcomedor/actions/workflows/laravel.yml)
+
 # elcomedor
 
 `elcomedor` es una API de prueba para un restaurante ficticio que necesita mostrar información de los ingredientes y alérgenos de sus platos.

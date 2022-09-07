@@ -17,10 +17,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
 Route::apiResource('v1/alergenos', AlergenoController::class);
 Route::apiResource('v1/ingredientes', IngredienteController::class);
 Route::apiResource('v1/platos', PlatoController::class);

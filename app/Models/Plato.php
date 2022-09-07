@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Plato extends Model
 {
     use HasFactory;
+
+    /**
+     * Relación con los ingredientes que tiene el plato
+     */
+    public function ingredientes()
+    {
+        return $this->belongsToMany(Ingrediente::class)->withTimestamps();;
+    }
 }

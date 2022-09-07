@@ -9,6 +9,8 @@ class Ingrediente extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['nombre'];
+
     /**
      * Relación con los alérgenos que tiene el ingrediente
      */
